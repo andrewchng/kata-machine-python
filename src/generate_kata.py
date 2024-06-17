@@ -2,9 +2,9 @@ from pathlib import Path
 import os, re
 
 signature_map = {
-    "linear_search" : "def linear_search(haystack:list, needle:int) -> bool:",
-    "binary_search" : "def binary_search(haystack:list, needle:int) -> bool:",
-    "quick_sort" : "def quick_sort(arr: list[int]) -> list[int]:"
+    "linear_search" : "def linear_search(haystack:list[int], needle:int) -> bool:",
+    "binary_search" : "def binary_search(haystack:list[int], needle:int) -> bool:",
+    "quick_sort" : "def quick_sort(arr: list[int]) :"
 }
 
 def generate_new_kata():

@@ -2,14 +2,20 @@
 
 ## Todo
 
-- [ ] mazeRunner.py
+- [x] linear_search.py
+- [x] binary_search.py
+- [ ] maze_runner.py
 - [ ] queue.py
 - [ ] stack.py
-- [ ] quickSort.py
-- [ ] bubblesort.py
-- [ ] linkedList.py
-- [ ] TwoCrystalBalls.py
-- [ ] BinarySeach.py
+- [ ] quick_sort.py
+- [ ] bubble_sort.py
+- [ ] two_crystal_balls.py
+- [ ] linked_list.py
+- [ ] BTBFS.py
+- [ ] BTInOrder.py
+- [ ] BTPostOrder.py
+- [ ] BTPreOrder.py
+
 
 ## Features to add
 

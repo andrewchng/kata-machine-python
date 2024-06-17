@@ -1,6 +1,6 @@
 import math
 
-def binary_search(haystack:list, needle:int) -> bool:
+def binary_search(haystack:list[int], needle:int) -> bool:
     lo = 0
     hi = len(haystack)
     while lo < hi:
