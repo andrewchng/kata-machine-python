@@ -21,8 +21,14 @@
 
 ### Generate new Katas
 
-```python generate_kata.py```
+```
+cd src
+python generate_kata.py
+```
 
 ### Run unit tests
 
-```python -m unittest discover -s src/test -p "test_*.py"```
+```
+cd src
+python -m unittest discover -s ./test -p "test_*.py"
+```
