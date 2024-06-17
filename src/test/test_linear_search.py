@@ -1,5 +1,5 @@
 import unittest
-from src.linear_search import linear_search
+from src.day1.linear_search import linear_search
 
 class TestBinarySearch(unittest.TestCase):
     def test_found_element(self):

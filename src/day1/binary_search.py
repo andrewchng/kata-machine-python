@@ -1,0 +1,1 @@
+def binary_search(haystack:list, needle:int) -> bool:
