@@ -11,3 +11,7 @@
 - TwoCrystalBalls.py
 - BinarySeach
 
+## Features to add
+- generate fresh new katas by command
+- run unit tests on latest generated katas
+
