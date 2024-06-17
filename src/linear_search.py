@@ -1,7 +1,7 @@
-def linear_search(haystack:list, needle:int) -> int:
+def linear_search(haystack:list, needle:int) -> bool:
     for item in haystack:
         if item == needle:
-            return needle
-    return -1
+            return True
+    return False
     
 
