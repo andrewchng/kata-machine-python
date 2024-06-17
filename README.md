@@ -9,7 +9,7 @@
 - bubblSsort.py
 - linkedList.py
 - TwoCrystalBalls.py
-- BinarySeach
+- BinarySeach.py
 
 ## Features to add
 
