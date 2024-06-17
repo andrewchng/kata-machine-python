@@ -1,6 +1,5 @@
 # Kata machine for practice
 
-
 ## Todo
 
 - mazeRunner.py
@@ -22,13 +21,11 @@
 ### Generate new Katas
 
 ```
-cd src
 python ./src/generate_kata.py
 ```
 
 ### Run unit tests
 
 ```
-cd src
 python -m unittest discover -s src/test -p "test_*.py"
 ```

@@ -1,4 +1,5 @@
 from pathlib import Path
+import os, re
 
 signature_map = {
     "linear_search" : "def linear_search(haystack:list, needle:int) -> bool:",
@@ -6,7 +7,8 @@ signature_map = {
 }
 
 def generate_new_kata():
-    folder_name = "day1"
+    days = count_days()
+    folder_name = f"day{days+1}"
     src_dir = Path("src")/folder_name
     src_dir.mkdir(exist_ok=True)
 
@@ -18,5 +20,23 @@ def generate_new_kata():
     with init_file.open("w") as f:
         f.write(f"# this is the __init__.py file for {folder_name}")
 
+def count_days():
+    idx = 0
+    def contains_day_patter(text: str):
+        pattern = r'day\d+'
+        if re.search(pattern, text):
+            return True
+        else :
+            return False
+
+    path = "./src"
+    for _, dirs, _ in os.walk(path):
+        for dir in dirs:
+            if contains_day_patter(dir) :
+                idx += 1
+    return idx
+    
+
 if __name__ == '__main__':
     generate_new_kata()
+
