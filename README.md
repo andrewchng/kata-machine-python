@@ -23,12 +23,12 @@
 
 ```
 cd src
-python generate_kata.py
+python ./src/generate_kata.py
 ```
 
 ### Run unit tests
 
 ```
 cd src
-python -m unittest discover -s ./test -p "test_*.py"
+python -m unittest discover -s src/test -p "test_*.py"
 ```

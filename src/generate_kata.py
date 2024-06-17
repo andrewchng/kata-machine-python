@@ -7,7 +7,7 @@ signature_map = {
 
 def generate_new_kata():
     folder_name = "day1"
-    src_dir = Path(folder_name)
+    src_dir = Path("src")/folder_name
     src_dir.mkdir(exist_ok=True)
 
     for kata_name, _ in signature_map.items():
