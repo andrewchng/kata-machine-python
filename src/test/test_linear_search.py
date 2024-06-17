@@ -1,5 +1,6 @@
 import unittest
-from src.day1.linear_search import linear_search
+from import_machine import dynamic_import
+linear_search = dynamic_import("linear_search").linear_search
 
 class TestBinarySearch(unittest.TestCase):
     def test_found_element(self):

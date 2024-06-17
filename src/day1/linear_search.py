@@ -3,5 +3,3 @@ def linear_search(haystack:list, needle:int) -> bool:
         if item == needle:
             return True
     return False
-    
-
