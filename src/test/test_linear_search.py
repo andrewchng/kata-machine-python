@@ -2,7 +2,7 @@ import unittest
 from import_machine import dynamic_import
 linear_search = dynamic_import("linear_search").linear_search
 
-class TestBinarySearch(unittest.TestCase):
+class TestLinearSearch(unittest.TestCase):
     def test_found_element(self):
         self.assertEqual(linear_search([1, 2, 3], 2), True)
 
