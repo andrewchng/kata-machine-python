@@ -13,8 +13,8 @@
 
 ## Features to add
 
-- generate fresh new katas by command
-- run unit tests on latest generated katas
+- [x] generate fresh new katas by command
+- [x] run unit tests on latest generated katas
 
 ## Command
 
