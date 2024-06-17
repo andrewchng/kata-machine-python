@@ -15,3 +15,6 @@
 - generate fresh new katas by command
 - run unit tests on latest generated katas
 
+# To run Tests
+
+```python -m unittest discover -s src/test -p "test_*.py"```
