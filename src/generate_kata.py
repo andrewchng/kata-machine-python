@@ -14,7 +14,9 @@ def generate_new_kata():
         kata_file = src_dir / f"{kata_name}.py"
         with kata_file.open("w") as f:
             f.write(f"{signature_map[kata_name]}")
-
+    init_file = src_dir / "__init__.py"
+    with init_file.open("w") as f:
+        f.write(f"# this is the __init__.py file for {folder_name}")
 
 if __name__ == '__main__':
     generate_new_kata()
