@@ -1,4 +1,4 @@
-# Kata machine for pratice
+# Kata machine for practice
 
 
 ## Todo
