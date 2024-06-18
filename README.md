@@ -27,7 +27,7 @@
 ### Generate new Katas
 
 ```
-python ./src/generate_kata.py
+python ./src/generate.py
 ```
 
 ### Run unit tests
