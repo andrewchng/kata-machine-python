@@ -1,5 +1,5 @@
 import unittest
-from import_machine import dynamic_import
+from src.utils import dynamic_import
 binary_search = dynamic_import("binary_search").binary_search
 
 class TestBinarySearch(unittest.TestCase):

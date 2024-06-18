@@ -1,5 +1,5 @@
 import unittest
-from import_machine import dynamic_import
+from src.utils import dynamic_import
 linear_search = dynamic_import("linear_search").linear_search
 
 class TestLinearSearch(unittest.TestCase):

@@ -4,7 +4,7 @@ import os
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run Tests")
-    parser.add_argument("-p", default="*.py", help="Pattern for test file names")
+    parser.add_argument("-p", default="", help="Pattern for test file names")
 
     args = parser.parse_args()
     pattern = "*"+args.p+"*.py"

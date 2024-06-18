@@ -1,5 +1,5 @@
 import unittest
-from import_machine import dynamic_import
+from src.utils import dynamic_import
 
 quick_sort = dynamic_import("quick_sort").quick_sort
 
