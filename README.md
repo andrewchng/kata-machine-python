@@ -7,7 +7,7 @@
 - [ ] maze_runner.py
 - [ ] queue.py
 - [ ] stack.py
-- [ ] quick_sort.py
+- [x] quick_sort.py
 - [ ] bubble_sort.py
 - [ ] two_crystal_balls.py
 - [ ] linked_list.py
