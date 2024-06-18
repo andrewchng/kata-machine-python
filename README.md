@@ -33,5 +33,6 @@ python ./src/generate_kata.py
 ### Run unit tests
 
 ```
-python -m unittest discover -s src/test -p "test_*.py"
+python test.py -p="{pattern}" 
+python test.py
 ```
