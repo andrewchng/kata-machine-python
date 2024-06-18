@@ -27,12 +27,19 @@
 ### Generate new Katas
 
 ```
-python ./src/generate.py
+python generate.py
 ```
 
-### Run unit tests
+### Unit tests
+
+#### Run all tests
+
+```
+python test.py
+```
+
+#### Run with pattern
 
 ```
 python test.py -p="{pattern}" 
-python test.py
 ```
