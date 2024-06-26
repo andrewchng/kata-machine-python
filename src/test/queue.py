@@ -18,3 +18,7 @@ class TestQueue(unittest.TestCase):
         self.assertEqual(q.length, 3)
         self.assertEqual(q.dequeue(), 10)
         self.assertEqual(q.length, 2)
+
+
+if __name__ == '__main__':
+    unittest.main()

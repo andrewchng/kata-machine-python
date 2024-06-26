@@ -21,4 +21,5 @@ class TestStack(unittest.TestCase):
         stack.push(7)
         self.assertEqual(stack.peek(), 7)
 
-    
+if __name__ == '__main__':
+    unittest.main()
