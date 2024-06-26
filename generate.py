@@ -15,10 +15,10 @@ def generate_new_kata():
     src_dir = Path("src")/folder_name
     src_dir.mkdir(exist_ok=True)
 
-    for kata_name, _ in signature_map.items():
+    for kata_name, signature in signature_map.items():
         kata_file = src_dir / f"{kata_name}.py"
         with kata_file.open("w") as f:
-            f.write(f"{signature_map[kata_name]}")
+            f.write(f"{signature}")
     init_file = src_dir / "__init__.py"
     with init_file.open("w") as f:
         f.write(f"# this is the __init__.py file for {folder_name}")
