@@ -4,7 +4,7 @@
 
 - [x] linear_search.py
 - [x] binary_search.py
-- [ ] maze_runner.py
+- [x] maze_solver.py
 - [ ] queue.py
 - [ ] stack.py
 - [x] quick_sort.py
