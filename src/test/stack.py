@@ -19,5 +19,7 @@ class TestStack(unittest.TestCase):
         self.assertEqual(stack.pop(), 4)
         self.assertEqual(stack.pop(), 3)
         self.assertEqual(stack.pop(), None)
+        stack.push(7)
+        self.assertEqual(stack.peek(), 7)
 
     
