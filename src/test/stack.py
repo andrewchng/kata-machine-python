@@ -1,8 +1,7 @@
 import unittest
-from src.day1.stack import Stack
 from src.utils import dynamic_import
 
-# Stack = dynamic_import("stack").Stack
+Stack = dynamic_import("stack").Stack
 
 class TestStack(unittest.TestCase):
     def test_stack(self):

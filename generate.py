@@ -30,7 +30,27 @@ class Stack :
 
     def peek(self) -> T:
         return
-        """
+        """,
+    "queue":"""class Node():
+    def __init__(self, value = None, next = None):
+        self.value = value
+        self.next = None
+
+class Queue():
+    def __init__(self):
+        self.length = 0
+        self.head = None
+        self.tail = None
+    
+    def enqueue(self, value):
+        return
+    
+    def dequeue(self):
+        return
+    
+    def peek(self):
+        return
+        """,
 }
 
 def generate_new_kata():
