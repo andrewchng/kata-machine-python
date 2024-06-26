@@ -5,8 +5,8 @@
 - [x] linear_search.py
 - [x] binary_search.py
 - [x] maze_solver.py
-- [ ] queue.py
-- [ ] stack.py
+- [x] queue.py
+- [x] stack.py
 - [x] quick_sort.py
 - [ ] bubble_sort.py
 - [ ] two_crystal_balls.py
