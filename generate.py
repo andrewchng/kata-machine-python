@@ -18,17 +18,17 @@ class Node(Generic[T]):
         self.prev = prev    
 
 class Stack :
-    def __init__(self, length : int= None, head : "Node[T]" = None):
+    def __init__(self, length : int = 0, head : "Node[T]" = None):
         self.length = length
         self.head = head
 
     def push(self, value: T) :
         return
   
-    def pop(self) -> "Node[T]": 
+    def pop(self) -> T: 
         return
 
-    def peek(self) -> "Node[T]":
+    def peek(self) -> T:
         return
         """
 }
