@@ -7,6 +7,30 @@ signature_map = {
     "binary_search" : "def binary_search(haystack:list[int], needle:int) -> bool:",
     "quick_sort" : "def quick_sort(arr: list[int]) :",
     "maze_solver" : """from typing import List, Tuple\n\nPoint = Tuple[int, int]\ndef maze_solver(maze: List[str], wall: str, start:Point, end: Point) -> List[Point]:""",
+    "stack" : """
+from typing import Generic, TypeVar
+
+T = TypeVar('T')
+
+class Node(Generic[T]):
+    def __init__(self, value: T, prev:"Node[T]"):
+        self.value = value
+        self.prev = prev    
+
+class Stack :
+    def __init__(self, length, head):
+        self.length = length
+        self.head = head
+
+    def push(value) :
+        return
+  
+    def pop() -> "Node[T]": 
+        return
+
+    def peek() -> "Node[T]":
+        return
+        """
 }
 
 def generate_new_kata():
