@@ -25,7 +25,6 @@
 - [ ] map.py
 - [ ] LRU.py
 
-
 ## Features to add
 
 - [x] generate fresh new katas by command
