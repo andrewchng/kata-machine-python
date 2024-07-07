@@ -9,7 +9,7 @@
 - [x] stack.py
 - [x] quick_sort.py
 - [x] bubble_sort.py
-- [ ] two_crystal_balls.py
+- [x] two_crystal_balls.py
 - [ ] singly_linked_list.py
 - [ ] double_linked_list.py
 - [ ] BTBFS.py
