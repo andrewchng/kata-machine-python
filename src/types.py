@@ -1,5 +1,6 @@
 class BinaryNode():
-    def __init__(self):
-        self.right = None
-        self.left = None
-        self.value = None
+    def __init__(self, value = None, left = None, right = None):
+        self.right = right
+        self.left = left
+        self.value = value
+
