@@ -12,6 +12,7 @@
 - [x] two_crystal_balls.py
 - [ ] singly_linked_list.py
 - [ ] double_linked_list.py
+- [ ] compare_binary_trees.py
 - [ ] BTBFS.py
 - [ ] BTInOrder.py
 - [ ] BTPostOrder.py
