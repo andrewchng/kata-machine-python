@@ -7,6 +7,7 @@ signature_map = {
     "binary_search" : "def binary_search(haystack:list[int], needle:int) -> bool:",
     "quick_sort" : "def quick_sort(arr: list[int]) :",
     "bubble_sort": "def bubble_sort(arr: list[int]):",
+    "two_crystal_balls" : "def two_crystal_balls(breaks: list[bool]) -> int:",
     "maze_solver" : """from typing import List, Tuple\n\nPoint = Tuple[int, int]\ndef maze_solver(maze: List[str], wall: str, start:Point, end: Point) -> List[Point]:""",
     "stack" : """
 from typing import Generic, TypeVar
