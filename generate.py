@@ -53,6 +53,22 @@ class Queue():
     def peek(self):
         return
         """,
+    "binary_tree_in_order" : """
+from src.types import BinaryNode
+
+def binary_tree_in_order(head: BinaryNode) -> list[int]:
+
+    """,
+    "binary_tree_post_order" : """
+from src.types import BinaryNode
+
+def binary_tree_post_order(head: BinaryNode) -> list[int]:
+""",
+"binary_tree_pre_order" : """
+from src.types import BinaryNode
+
+def binary_tree_pre_order(head: BinaryNode) -> list[int]:    
+"""
 }
 
 def generate_new_kata():
