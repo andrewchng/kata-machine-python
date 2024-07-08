@@ -1,15 +1,15 @@
 import unittest
-from src.utils import dynamic_import, create_tree, print_tree
-# from src.types import BinaryNode
+from src.utils import dynamic_import, create_tree, get_path_in_order
+
+binary_tree_in_order = dynamic_import("binary_tree_in_order").binary_tree_in_order
 
 class BinaryTreeInOrderTest(unittest.TestCase): 
     def test_in_order(self):
         head = create_tree()
-        print("\n")
-        # print(head.value)
-        print_tree(head)
-
-
+        path = []
+        get_path_in_order(head, path)
+        self.assertEqual(binary_tree_in_order(head), path)
+        
         
 
 
