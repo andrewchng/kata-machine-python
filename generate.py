@@ -86,9 +86,9 @@ class min_heap():
     
     def __init__(self, length = 0):
 
-    def insert(value: int):
+    def insert(self, value: int):
 
-    def delete() -> int:"""
+    def delete(self) -> int:"""
 }
 
 def generate_new_kata():
