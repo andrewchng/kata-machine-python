@@ -72,7 +72,15 @@ def binary_tree_pre_order(head: BinaryNode) -> list[int]:
 "compare_binary_trees" : """from src.types import BinaryNode
 
 def compare_binary_trees(a : BinaryNode, b : BinaryNode) -> bool:
-"""
+""",
+
+"binary_tree_bfs" : """from src.types import BinaryNode
+
+def binary_tree_bfs(root : BinaryNode, needle :int) -> bool:""",
+"dfs_on_binary_search_tree": """
+from src.types import BinaryNode
+
+def dfs_on_binary_search_tree(head : BinaryNode, needle: str ) -> bool:"""
 }
 
 def generate_new_kata():
