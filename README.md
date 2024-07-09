@@ -20,7 +20,6 @@
 - [x] DFS_on_BST.py
 - [ ] DFS_graph_list.py
 - [ ] BFS_graph_matrix.py
-- [x] compare_binary_tree.py
 - [ ] min_heap.py
 - [ ] trie.py
 - [ ] map.py
