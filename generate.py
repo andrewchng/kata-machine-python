@@ -68,6 +68,10 @@ def binary_tree_post_order(head: BinaryNode) -> list[int]:
 from src.types import BinaryNode
 
 def binary_tree_pre_order(head: BinaryNode) -> list[int]:    
+""",
+"compare_binary_trees" : """from src.types import BinaryNode
+
+def compare_binary_trees(a : BinaryNode, b : BinaryNode) -> bool:
 """
 }
 
