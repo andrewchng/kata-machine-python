@@ -49,5 +49,5 @@ python test.py
 #### Run with pattern
 
 ```
-python test.py -p="{pattern}" 
+python test.py -p={pattern} 
 ```
