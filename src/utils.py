@@ -40,6 +40,18 @@ def insert_node(root, value):
         root.right = insert_node(root.right, value)  # Recursively insert right child
     return root
 
+def insert_node_left(root, value):
+    if root is None:  # Empty tree, create a new node
+        return BinaryNode(value)
+    root.left = insert_node_left(root.left, value)  # Recursively insert left child
+    return root
+
+def insert_node_right(root, value):
+    if root is None:  # Empty tree, create a new node
+        return BinaryNode(value)
+    root.right = insert_node_right(root.right, value)  # Recursively insert left child
+    return root
+
 def print_tree(root):
     if root is None:  # Base case: empty tree
         return

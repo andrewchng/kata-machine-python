@@ -12,12 +12,12 @@
 - [x] two_crystal_balls.py
 - [ ] singly_linked_list.py
 - [ ] double_linked_list.py
-- [ ] compare_binary_trees.py
-- [ ] BTBFS.py
+- [x] compare_binary_trees.py
+- [x] BTBFS.py
 - [x] BTInOrder.py
 - [x] BTPostOrder.py
 - [x] BTPreOrder.py
-- [ ] DFS_on_BST.py
+- [x] DFS_on_BST.py
 - [ ] DFS_graph_list.py
 - [ ] BFS_graph_matrix.py
 - [ ] compare_binary_tree.py

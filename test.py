@@ -12,5 +12,10 @@ if __name__ == "__main__":
     test_loader = unittest.TestLoader()
     test_suite = test_loader.discover(start_dir="src/test", pattern=pattern)
 
+    # for test_case in test_suite:
+    #     print(f"{test_case}\n")
+    #     for test in test_case._tests:
+    #         print( f"{test}\n")
+
     test_runner = unittest.TextTestRunner()
     test_runner.run(test_suite)
