@@ -52,12 +52,12 @@ def insert_node_right(root, value):
     root.right = insert_node_right(root.right, value)  # Recursively insert left child
     return root
 
-def print_tree(root):
-    if root is None:  # Base case: empty tree
-        return
-    print_tree(root.left)  # Recursively traverse left subtree
-    print(root.value)
-    print_tree(root.right)  # Recursively traverse right subtree
+# def print_tree(root):
+#     if root is None:  # Base case: empty tree
+#         return
+#     print_tree(root.left)  # Recursively traverse left subtree
+#     print(root.value)
+#     print_tree(root.right)  # Recursively traverse right subtree
 
 def create_tree():
     root = BinaryNode(5)
@@ -88,3 +88,26 @@ def get_path_pre_order(root, path : list[int]):
     path.append(root.value)
     get_path_pre_order(root.left, path)
     get_path_pre_order(root.right, path)
+
+# def print_tree(root):
+#     queue = [root]
+#     while len(queue) > 0:
+#         node = queue.pop(0)
+#         if node is None:
+#             continue
+#         print(node.value)
+#         print(f"{node.left}, {node.right}")
+#         queue.append(node.left)
+#         queue.append(node.right)
+
+def print_binary_tree(root, level=0):
+    if root is not None:
+        print_binary_tree(root.right, level + 1) 
+        print('     ' * level +str(root.value) + "-|")
+        print_binary_tree(root.left, level + 1)
+    else:
+        print('     ' * level + "x")
+    
+    
+
+

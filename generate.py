@@ -80,7 +80,15 @@ def binary_tree_bfs(root : BinaryNode, needle :int) -> bool:""",
 "dfs_on_binary_search_tree": """
 from src.types import BinaryNode
 
-def dfs_on_binary_search_tree(head : BinaryNode, needle: str ) -> bool:"""
+def dfs_on_binary_search_tree(head : BinaryNode, needle: str ) -> bool:""",
+"min_heap" : """
+class min_heap():
+    
+    def __init__(self, length = 0):
+
+    def insert(self, value: int):
+
+    def delete(self) -> int:"""
 }
 
 def generate_new_kata():
