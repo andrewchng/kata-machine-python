@@ -11,4 +11,3 @@ class BinaryTreeBFSTest(unittest.TestCase):
     def test_no_needle_found(self):
         root = create_tree()
         self.assertFalse(binary_tree_bfs(root, 1 ))
-
