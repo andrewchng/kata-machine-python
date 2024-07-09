@@ -10,6 +10,7 @@ class min_heap():
     def insert(self, value: int):
         self.data.append(value)
         self.heapify_up(self.length)
+        #why account for length after heapify?
         self.length+=1
 
     def delete(self) -> int:
