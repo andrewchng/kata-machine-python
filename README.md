@@ -20,7 +20,7 @@
 - [x] DFS_on_BST.py
 - [ ] DFS_graph_list.py
 - [ ] BFS_graph_matrix.py
-- [ ] min_heap.py
+- [x] min_heap.py
 - [ ] trie.py
 - [ ] map.py
 - [ ] LRU.py
