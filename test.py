@@ -12,7 +12,7 @@ if __name__ == "__main__":
     print(pattern)
 
     test_loader = unittest.TestLoader()
-    test_suite = test_loader.discover(start_dir="src/test", pattern=pattern)
+    test_suite = test_loader.discover(start_dir="test", pattern=pattern)
 
     # for test_case in test_suite:
     #     print(f"{test_case}\n")
