@@ -10,19 +10,35 @@ class TestSingleLinkedList(unittest.TestCase):
         list.append(9)
 
         self.assertEqual(list.get(2),9)
-        self.assertEqual(list.removeAt(1),7)
+        self.assertEqual(list.remove_at(1),7)
+
+        # [5, 9]
         self.assertEqual(list.length,2)
 
         list.append(11)
-        self.assertEqual(list.removeAt(1),9)
+
+        # [5, 9, 11]
+
+        self.assertEqual(list.remove_at(1),9)
+
+        # [5, 11]
+
         self.assertEqual(list.remove(9), None)
-        self.assertEqual(list.removeAt(0),5)
-        self.assertEqual(list.removeAt(0),11)
+        self.assertEqual(list.remove_at(0),5)
+
+        # [11]
+
+        self.assertEqual(list.remove_at(0),11)
+
+        # []
+
         self.assertEqual(list.length,0)
 
         list.prepend(5)
         list.prepend(7)
         list.prepend(9)
+
+        #[9, 7 ,5]
 
         self.assertEqual(list.get(2),5)
         self.assertEqual(list.get(0),9)
