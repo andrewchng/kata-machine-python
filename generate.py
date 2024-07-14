@@ -88,7 +88,37 @@ class min_heap():
 
     def insert(self, value: int):
 
-    def delete(self) -> int:"""
+    def delete(self) -> int:""",
+"singly_linked_list": """
+class Node :
+    def __init__(self, value) -> None:
+        self.value = value
+        self.next = None
+
+class singly_linked_list():
+
+    def __init__(self, length = 0):
+        self.length = length
+        self.head = None
+        self.tail = None
+
+    def prepend(self, item : int):
+        return
+    
+    def insert_at(item: int, idx: int ):
+        return
+    
+    def append(self, item: int):
+        return
+    
+    def remove(self, item: int) -> int:
+        return
+    
+    def get(self, idx: int) -> int:
+        return
+    
+    def remove_at(self, idx : int) -> int:
+        return"""
 }
 
 def generate_new_kata():
