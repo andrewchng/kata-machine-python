@@ -11,7 +11,7 @@
 - [x] bubble_sort.py
 - [x] two_crystal_balls.py
 - [x] singly_linked_list.py
-- [x] double_linked_list.py
+- [ ] double_linked_list.py
 - [x] compare_binary_trees.py
 - [x] BTBFS.py
 - [x] BTInOrder.py
@@ -49,5 +49,5 @@ python test.py
 #### Run with pattern
 
 ```
-python test.py -p={pattern} 
+python test.py -p {pattern} 
 ```
