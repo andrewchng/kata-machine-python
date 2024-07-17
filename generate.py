@@ -118,8 +118,21 @@ class singly_linked_list():
         return
     
     def remove_at(self, idx : int) -> int:
-        return"""
-}
+        return""",
+    "dfs_graph_list": """
+    from typing import List
+    from ..types import WeightedAdjacencyList
+
+    def dfs_graph_list(graph: WeightedAdjacencyList, source: int, needle: int) -> List[int]:
+        pass""",
+    "bfs_graph_matrix":
+        """
+        from typing import List
+    from ..types import WeightedAdjacencyMatrix
+
+    def bfs_graph_matrix(graph: WeightedAdjacencyMatrix, source: int, needle : int) -> List[int]:
+        pass""",
+    }
 
 def generate_new_kata():
     days = count_days()
