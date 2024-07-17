@@ -14,14 +14,14 @@ class BFSGraphMatrix(unittest.TestCase):
             6,
         ]
         graph = WeightedAdjacencyMatrix()
-        
-        row_0 = [0, 3, 1,  0, 0, 0, 0], # 0
-        row_1 = [0, 0, 0,  0, 1, 0, 0], # 1
-        row_2 = [0, 0, 7,  0, 0, 0, 0], # 2
-        row_3 = [0, 0, 0,  0, 0, 0, 0], # 3
-        row_4 = [0, 1, 0,  5, 0, 2, 0], # 4
-        row_5 = [0, 0, 18, 0, 0, 0, 1], # 5
-        row_6 = [0, 0, 0,  1, 0, 0, 1], # 6
+            #    0  1  2   3  4  5  6
+        row_0 = [0, 3, 1,  0, 0, 0, 0]  # 0
+        row_1 = [0, 0, 0,  0, 1, 0, 0]  # 1
+        row_2 = [0, 0, 7,  0, 0, 0, 0]  # 2
+        row_3 = [0, 0, 0,  0, 0, 0, 0]  # 3
+        row_4 = [0, 1, 0,  5, 0, 2, 0]  # 4
+        row_5 = [0, 0, 18, 0, 0, 0, 1]  # 5
+        row_6 = [0, 0, 0,  1, 0, 0, 1]  # 6
 
         graph.add_matrix_row(row_0)
         graph.add_matrix_row(row_1)
@@ -30,9 +30,9 @@ class BFSGraphMatrix(unittest.TestCase):
         graph.add_matrix_row(row_4)
         graph.add_matrix_row(row_5)
         graph.add_matrix_row(row_6)
-            
+                    
         self.assertEqual(bfs_graph_matrix(graph, 0, 6), ans)
-        self.assertEqual(bfs_graph_matrix(graph, 6, 0), None)
+        self.assertEqual(bfs_graph_matrix(graph, 6, 0), [])
     
             
         
