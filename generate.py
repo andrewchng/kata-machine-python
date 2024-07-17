@@ -132,6 +132,14 @@ class singly_linked_list():
 
     def bfs_graph_matrix(graph: WeightedAdjacencyMatrix, source: int, needle : int) -> List[int]:
         pass""",
+    "dijkstra_list" : 
+    """
+    from typing import List
+    from src.types import WeightedAdjacencyList
+
+    def dijkstra_list(source : int, sink : int, arr: WeightedAdjacencyList) -> List[int]:
+        pass
+    """
     }
 
 def generate_new_kata():
