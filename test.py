@@ -9,8 +9,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     pattern = "*"+args.p+"*.py"
 
-    print(pattern)
-
     test_loader = unittest.TestLoader()
     test_suite = test_loader.discover(start_dir="test", pattern=pattern)
 

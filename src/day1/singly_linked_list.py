@@ -20,7 +20,6 @@ class singly_linked_list():
         self.length += 1
         node.next = self.head
         self.head = node 
-        print(self.length)
     
     def insert_at(item: int, idx: int ):
         return
