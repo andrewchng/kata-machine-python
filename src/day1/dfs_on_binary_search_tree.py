@@ -4,7 +4,7 @@ def dfs_on_binary_search_tree(head : BinaryNode, needle: int ) -> bool:
     return search(head, needle)
 
 
-def search(curr : BinaryNode | None, needle: int):
+def search(curr : BinaryNode, needle: int):
     if curr is None:
         return False
     if curr.value == needle:
