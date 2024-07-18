@@ -57,5 +57,5 @@ class DijkstraList(unittest.TestCase):
         graph_list.add_edges(edges6)
         
         
-        self.assertEqual(dijkstra_list(0, 6, list), ans)
+        self.assertEqual(dijkstra_list(0, 6, graph_list), ans)
         
