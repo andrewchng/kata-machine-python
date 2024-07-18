@@ -21,7 +21,7 @@
 - [x] DFS_graph_list.py
 - [x] BFS_graph_matrix.py
 - [x] min_heap.py
-- [ ] dijkstra.py
+- [x] dijkstra.py
 - [ ] trie.py
 - [ ] map.py
 - [ ] LRU.py
