@@ -1,20 +1,26 @@
-class Node():
+
+from typing import Generic, TypeVar
+
+K = TypeVar("K")
+V = TypeVar("V")
+
+class Node(Generic[V]):
     def __init__(self, value, next = None, prev = None) -> None:
-        self.value : int  = value
+        self.value : V  = value
         self.next : Node = next
         self.prev : Node = prev
 
-class least_recently_used():
+class least_recently_used(Generic[K, V]):
     def __init__(self, capacity) -> None:
         self.head : Node = None
         self.tail : Node = None
         self.capacity : int = capacity
         self.length : int = 0
-        self.lookup : dict[str, Node]= {}
-        self.reverse_lookup : dict[Node, str] = {}
+        self.lookup : dict[K, Node[V]]= {}
+        self.reverse_lookup : dict[Node[V], K] = {}
         pass
     
-    def update(self, key : str, value : int) -> None:
+    def update(self, key : K, value : V) -> None:
         node = self.lookup.get(key)
         if node is None:
             new_node = Node(value)
@@ -28,7 +34,7 @@ class least_recently_used():
             self.detach(node)
             self.prepend(node)
     
-    def get(self, key : str) -> int:
+    def get(self, key : K) -> int:
         node = self.lookup.get(key)
         if node is None:
             return None
