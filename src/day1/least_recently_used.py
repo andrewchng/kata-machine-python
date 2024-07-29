@@ -18,7 +18,6 @@ class least_recently_used(Generic[K, V]):
         self.length : int = 0
         self.lookup : dict[K, Node[V]]= {}
         self.reverse_lookup : dict[Node[V], K] = {}
-        pass
     
     def update(self, key : K, value : V) -> None:
         node = self.lookup.get(key)
