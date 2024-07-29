@@ -139,6 +139,17 @@ class singly_linked_list():
 
     def dijkstra_list(source : int, sink : int, arr: WeightedAdjacencyList) -> List[int]:
         pass
+    """,
+    "least_recently_used" : """
+    class least_recently_used():
+        def __init__(self, capacity) -> None:
+            pass
+        
+        def update(self, key : str, value : int) -> None:
+            pass
+        
+        def get(self, key : str) -> int:
+            pass
     """
     }
 
