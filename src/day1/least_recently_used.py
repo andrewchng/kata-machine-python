@@ -7,8 +7,8 @@ V = TypeVar("V")
 class Node(Generic[V]):
     def __init__(self, value, next = None, prev = None) -> None:
         self.value : V  = value
-        self.next : Node = next
-        self.prev : Node = prev
+        self.next : Node[V] = next
+        self.prev : Node[V] = prev
 
 class least_recently_used(Generic[K, V]):
     def __init__(self, capacity) -> None:
